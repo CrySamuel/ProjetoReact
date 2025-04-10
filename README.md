@@ -68,7 +68,7 @@ npm start
 - Vá para a pasta do frontend:
 
 ```bash
-cd ../FrontEnd
+cd ../FrontEnd/projetoreact
 npm install
 npm start
 ```
