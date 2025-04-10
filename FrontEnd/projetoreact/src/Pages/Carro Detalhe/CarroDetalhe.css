@@ -1,0 +1,71 @@
+.detalhes-container {
+    min-height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    color: #fff;
+}
+
+.detalhes-container h2 {
+    color: #ff0000;
+    text-shadow: 0 0 5px #ff0000;
+    margin-bottom: 30px;
+}
+
+.info-bloco {
+    background-color: #111;
+    border: 2px solid #ff0000;
+    border-radius: 15px;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 0 20px #ff0000;
+    margin-bottom: 30px;
+}
+
+.info-bloco p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.botoes-detalhes {
+    display: flex;
+    gap: 20px;
+}
+
+.botao-editar,
+.botao-excluir {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botao-editar {
+    background-color: #ff0000;
+    color: #000;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.botao-editar:hover {
+    background-color: #ff4d4d;
+    box-shadow: 0 0 15px #ff4d4d, 0 0 30px #ff4d4d;
+}
+
+.botao-excluir {
+    background-color: #330000;
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.botao-excluir:hover {
+    background-color: #660000;
+    box-shadow: 0 0 15px #ff4d4d, 0 0 30px #ff4d4d;
+}

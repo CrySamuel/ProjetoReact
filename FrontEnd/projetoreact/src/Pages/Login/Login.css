@@ -1,0 +1,113 @@
+.login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 20px;
+}
+
+.login-container {
+  background-color: #111;
+  padding: 10px 50px 30px;
+  border: 2px solid #ff0000;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #ff0000;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-center {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+  animation: pulse 2s infinite;
+}
+
+h2 {
+  color: #ff0000;
+  margin-bottom: 25px;
+  font-size: 28px;
+  text-shadow: 0 0 6px #ff0000;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: #1c1c1c;
+  color: #fff;
+  box-shadow: 0 0 10px #ff0000;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  box-shadow: 0 0 15px #ff0000;
+  background-color: #2a2a2a;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ff0000;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 12px #ff0000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ff4d4d;
+  box-shadow: 0 0 18px #ff4d4d, 0 0 30px #ff4d4d;
+}
+
+.link-text {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.link-text a {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+  transition: color 0.2s ease;
+}
+
+.link-text a:hover {
+  text-decoration: underline;
+  color: #ff4d4d;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+}
